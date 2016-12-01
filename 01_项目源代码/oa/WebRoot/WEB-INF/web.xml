@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name></display-name>
+  
+  <listener>
+  	<listener-class>com.zrgj.oa.listener.InitListener</listener-class>
+  </listener>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeListServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.EmployeeListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeDeleteServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.EmployeeDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.EmployeeShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.EmployeeUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeAddServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.EmployeeAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitPwdServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.InitPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentAddServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.DepartmentAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentDeleteServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.DepartmentDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.DepartmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentUpdateFinishServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.DepartmentUpdateFinishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.DepartmentUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RandomServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.RandomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationAddServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.StationAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationDeleteServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.StationDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.StationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.StationUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationUpdateSqlServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.StationUpdateSqlServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddEmployeeShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.AddEmployeeShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ImageShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.SignServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrivilegeShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.PrivilegeShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RoleSetPrivServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.RoleSetPrivServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForumServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ForumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForumOperateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ForumOperateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopicServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.TopicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopicOperateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.TopicOperateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.StationShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForumShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ForumShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplyListServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ReplyListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopicAddServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.TopicAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopicSuccessServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.TopicSuccessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplyAddServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ReplyAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplySuccessServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ReplySuccessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopicUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.TopicUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentShowServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.DepartmentShowServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PerformanceServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.PerformanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PerformanceUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.PerformanceUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PerformanceUpdateFinishServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.PerformanceUpdateFinishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PerformanceReplyServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.PerformanceReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PerformanceApproveServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.PerformanceApproveServlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveListServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.LeaveListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveListUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.LeaveListUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveListUpdateTServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.LeaveListUpdateTServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveListUpdateJServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.LeaveListUpdateJServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>ShowReasonServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.ShowReasonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyPageServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.MyPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyPageUpdateServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.MyPageUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckTimeServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.CheckTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+   	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+ 	 <servlet-name>UserStationServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserStationServlet</servlet-class> 
+  </servlet>
+- <servlet>
+  	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+  	<servlet-name>UserPerformanceServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserPerformanceServlet</servlet-class> 
+  </servlet>
+- <servlet>
+  	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+  	<servlet-name>UserCheckServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserCheckServlet</servlet-class> 
+  </servlet>
+- <servlet>
+  	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+  	<servlet-name>UserLeaveServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserLeaveServlet</servlet-class> 
+  </servlet>
+- <servlet>
+  	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+  	<servlet-name>UserLeaveAddServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserLeaveAddServlet</servlet-class> 
+  </servlet>
+- <servlet>
+  	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+  	<servlet-name>UserLeaveDeleteServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserLeaveDeleteServlet</servlet-class> 
+  </servlet>
+- <servlet>
+  	<description>This is the description of my J2EE component</description> 
+  	<display-name>This is the display name of my J2EE component</display-name> 
+  	<servlet-name>UserLeaveShowServlet</servlet-name> 
+  	<servlet-class>com.zrgj.oa.servlet.UserLeaveShowServlet</servlet-class> 
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutLoginServlet</servlet-name>
+    <servlet-class>com.zrgj.oa.servlet.OutLoginServlet</servlet-class>
+  </servlet>
+
+  
+  
+  
+
+  <servlet-mapping>
+    <servlet-name>EmployeeListServlet</servlet-name>
+    <url-pattern>/EmployeeListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeDeleteServlet</servlet-name>
+    <url-pattern>/EmployeeDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeShowServlet</servlet-name>
+    <url-pattern>/EmployeeShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeUpdateServlet</servlet-name>
+    <url-pattern>/EmployeeUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeAddServlet</servlet-name>
+    <url-pattern>/EmployeeAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitPwdServlet</servlet-name>
+    <url-pattern>/InitPwdServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>DepartmentAddServlet</servlet-name>
+    <url-pattern>/DepartmentAddServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>DepartmentDeleteServlet</servlet-name>
+    <url-pattern>/DepartmentDeleteServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <url-pattern>/DepartmentServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>DepartmentUpdateFinishServlet</servlet-name>
+    <url-pattern>/DepartmentUpdateFinishServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>DepartmentUpdateServlet</servlet-name>
+    <url-pattern>/DepartmentUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RandomServlet</servlet-name>
+    <url-pattern>/RandomServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>StationAddServlet</servlet-name>
+    <url-pattern>/StationAddServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>StationDeleteServlet</servlet-name>
+    <url-pattern>/StationDeleteServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>StationServlet</servlet-name>
+    <url-pattern>/StationServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>StationUpdateServlet</servlet-name>
+    <url-pattern>/StationUpdateServlet</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>StationUpdateSqlServlet</servlet-name>
+    <url-pattern>/StationUpdateSqlServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEmployeeShowServlet</servlet-name>
+    <url-pattern>/AddEmployeeShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageShowServlet</servlet-name>
+    <url-pattern>/ImageShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignServlet</servlet-name>
+    <url-pattern>/SignServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrivilegeShowServlet</servlet-name>
+    <url-pattern>/PrivilegeShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleSetPrivServlet</servlet-name>
+    <url-pattern>/RoleSetPrivServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForumServlet</servlet-name>
+    <url-pattern>/ForumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForumOperateServlet</servlet-name>
+    <url-pattern>/ForumOperateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopicServlet</servlet-name>
+    <url-pattern>/TopicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopicOperateServlet</servlet-name>
+    <url-pattern>/TopicOperateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StationShowServlet</servlet-name>
+    <url-pattern>/StationShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForumShowServlet</servlet-name>
+    <url-pattern>/ForumShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyListServlet</servlet-name>
+    <url-pattern>/ReplyListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopicAddServlet</servlet-name>
+    <url-pattern>/TopicAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopicSuccessServlet</servlet-name>
+    <url-pattern>/TopicSuccessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyAddServlet</servlet-name>
+    <url-pattern>/ReplyAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplySuccessServlet</servlet-name>
+    <url-pattern>/ReplySuccessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopicUpdateServlet</servlet-name>
+    <url-pattern>/TopicUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentShowServlet</servlet-name>
+    <url-pattern>/DepartmentShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PerformanceServlet</servlet-name>
+    <url-pattern>/PerformanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PerformanceUpdateServlet</servlet-name>
+    <url-pattern>/PerformanceUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PerformanceUpdateFinishServlet</servlet-name>
+    <url-pattern>/PerformanceUpdateFinishServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PerformanceApproveServlet</servlet-name>
+    <url-pattern>/PerformanceApproveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PerformanceReplyServlet</servlet-name>
+    <url-pattern>/PerformanceReplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/CheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveListServlet</servlet-name>
+    <url-pattern>/LeaveListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveListUpdateServlet</servlet-name>
+    <url-pattern>/LeaveListUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveListUpdateTServlet</servlet-name>
+    <url-pattern>/LeaveListUpdateTServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveListUpdateJServlet</servlet-name>
+    <url-pattern>/LeaveListUpdateJServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>ShowReasonServlet</servlet-name>
+    <url-pattern>/ShowReasonServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>MyPageServlet</servlet-name>
+    <url-pattern>/MyPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyPageUpdateServlet</servlet-name>
+    <url-pattern>/MyPageUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckTimeServlet</servlet-name>
+    <url-pattern>/CheckTimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCheckServlet</servlet-name>
+    <url-pattern>/UserCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserPerformanceServlet</servlet-name>
+    <url-pattern>/UserPerformanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserStationServlet</servlet-name>
+    <url-pattern>/UserStationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLeaveAddServlet</servlet-name>
+    <url-pattern>/UserLeaveAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLeaveDeleteServlet</servlet-name>
+    <url-pattern>/UserLeaveDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLeaveServlet</servlet-name>
+    <url-pattern>/UserLeaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLeaveShowServlet</servlet-name>
+    <url-pattern>/UserLeaveShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutLoginServlet</servlet-name>
+    <url-pattern>/OutLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  	
+ <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
